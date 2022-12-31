@@ -1,0 +1,20 @@
+GET http://localhost:3001/api/v1/categories
+
+###
+
+GET http://localhost:3001/api/v1/categories/filter
+Content-Type: application/json
+
+{
+  "array_name": ["test", "anngbdnbab"]
+}
+
+###
+
+POST http://localhost:3001/api/v1/categories
+Content-Type: application/json
+
+{
+  "name": "test",
+  "description": "nvdioanbibi"
+}
